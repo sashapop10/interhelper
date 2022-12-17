@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1180px){
+	#textarea1{
+		height: 700px;
+		width: 700px;
+	}
+}
+@media only screen and (max-width: 880px){
+	#textarea1{
+		height: 600px;
+		width: 600px;
+	}
+	#logo h1{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 780px){
+	#textarea1{
+		height: 600px;
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 575px){
+	
+	#middle_part{
+		padding: 10px;
+	}
+	#textarea1{
+		height: 600px;
+		width: 350px;
+	}
+	#InterHelper_head{
+		opacity: 0.5;
+	}
+}
