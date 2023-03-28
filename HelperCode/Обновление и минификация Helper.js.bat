@@ -1,0 +1,2 @@
+node C:\uglifyjs\bin\uglifyjs -o C:\hosting\interhelper.ru\www\HelperCode\f1239f1wjhkfjhu29834fh2h4389hf234f234\Helper.min.js C:\hosting\interhelper.ru\www\HelperCode\f1239f1wjhkfjhu29834fh2h4389hf234f234\Helper.js
+Pause

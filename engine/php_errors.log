@@ -1,0 +1,233 @@
+[11-Feb-2022 15:40:29 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\PHPMailer\SMTP.php on line 387
+[09-Mar-2022 11:26:59 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 11:31:17 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 11:33:43 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 12:19:08 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 12:53:46 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 14:12:08 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 14:12:08 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\assistent_login.php on line 135
+[09-Mar-2022 14:12:30 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 14:12:30 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\assistent_login.php on line 135
+[09-Mar-2022 14:12:30 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\assistent_login.php on line 135
+[09-Mar-2022 14:14:37 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 14:48:11 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 15:55:15 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 16:44:15 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 17:18:31 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[09-Mar-2022 17:36:24 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[14-Mar-2022 18:53:17 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[19-Mar-2022 09:19:36 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[20-Mar-2022 16:34:17 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[20-Mar-2022 16:34:17 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\assistent_login.php on line 135
+[20-Mar-2022 16:34:39 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[20-Mar-2022 16:36:37 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[20-Mar-2022 16:45:44 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[30-Mar-2022 20:26:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:38 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\guest_func.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\guest_func.php on line 9
+[30-Mar-2022 20:26:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\settings.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\settings.php on line 11
+[30-Mar-2022 20:26:50 Europe/Moscow] PHP Fatal error:  Uncaught Error: Undefined constant "SERVERPATH" in C:\hosting\interhelper.ru\www\engine\guest_func.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\guest_func.php on line 9
+[31-Mar-2022 11:18:43 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[12-Apr-2022 12:37:51 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\settings.php(1038): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[05-May-2022 21:54:39 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[18-May-2022 08:36:51 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[07-Jun-2022 12:39:15 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[07-Jun-2022 15:46:02 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[09-Jun-2022 15:24:43 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[22-Jun-2022 08:36:45 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[24-Jun-2022 10:34:22 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[10-Jul-2022 01:06:09 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[13-Jul-2022 09:13:39 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[16-Jul-2022 11:07:01 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 11:17:49 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 11:21:17 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 11:25:48 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 11:28:09 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 11:32:40 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 12:30:19 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 17:43:22 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[16-Jul-2022 17:57:10 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[19-Jul-2022 11:02:50 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[19-Jul-2022 11:10:02 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[22-Jul-2022 15:04:25 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[23-Jul-2022 14:30:17 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[04-Aug-2022 23:26:57 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[14-Aug-2022 07:21:23 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[18-Aug-2022 14:54:33 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[22-Aug-2022 13:39:37 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[23-Aug-2022 12:33:27 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[23-Aug-2022 12:36:13 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[23-Aug-2022 12:44:42 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[25-Aug-2022 14:01:52 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[25-Aug-2022 17:59:04 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[31-Aug-2022 12:40:18 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[31-Aug-2022 12:41:14 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[31-Aug-2022 12:54:50 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[31-Aug-2022 17:26:55 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[31-Aug-2022 18:07:34 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[31-Aug-2022 19:29:59 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[31-Aug-2022 20:14:11 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 11:10:29 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 11:12:11 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 11:37:29 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 12:43:04 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 12:46:22 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 09:46:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\settings.php on line 3
+[01-Sep-2022 12:55:22 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 13:19:28 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[01-Sep-2022 15:18:13 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\func.php on line 737
+[05-Sep-2022 21:55:14 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[08-Oct-2022 02:55:31 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\PHPMailer\SMTP.php on line 387
+[07-Oct-2022 23:55:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\hosting\interhelper.ru\www\engine\guest_func.php on line 3
+[22-Oct-2022 18:50:28 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005
+[23-Oct-2022 19:19:54 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\hosting\interhelper.ru\www\engine\func.php:1005
+Stack trace:
+#0 C:\hosting\interhelper.ru\www\engine\func.php(1005): array_push()
+#1 C:\hosting\interhelper.ru\www\engine\guest_func.php(156): smtpmail()
+#2 {main}
+  thrown in C:\hosting\interhelper.ru\www\engine\func.php on line 1005

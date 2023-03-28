@@ -1,0 +1,844 @@
+#InterHelper_btn, #InterHelper_window{
+    margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+#InterHelper_window_body::-webkit-scrollbar-thumb { 
+    height: 5px; 
+    width: 2px; 
+    background-color: #eee; 
+    border-radius: 10px;
+}
+#InterHelper_window_body::-webkit-resizer,
+#InterHelper_message_input::-webkit-resizer,
+#InterHelper_offline_form textarea::-webkit-resizer,
+.sended_offline_form textarea::-webkit-resizer,
+.InterHelper_emoji_block::-webkit-resizer
+{ 
+    background-color: #eee;
+}
+#InterHelper_offline_form textarea::-webkit-scrollbar,
+#InterHelper_message_input::-webkit-scrollbar,
+#InterHelper_window_body::-webkit-scrollbar,
+.sended_offline_form textarea::-webkit-scrollbar,
+.InterHelper_emoji_block::-webkit-scrollbar
+{ 
+    width: 7px; height: 7px;
+}
+#InterHelper_offline_form textarea::-webkit-scrollbar-track,
+#InterHelper_message_input::-webkit-scrollbar-track,
+#InterHelper_window_body::-webkit-scrollbar-track,
+.sended_offline_form textarea::-webkit-scrollbar-track,
+.InterHelper_emoji_block::-webkit-scrollbar-track
+{  
+    background-color: #999;
+}
+#InterHelper_offline_form textarea::-webkit-scrollbar-track-piece, 
+#InterHelper_message_input::-webkit-scrollbar-track-piece,
+#InterHelper_window_body::-webkit-scrollbar-track-piece,
+.sended_offline_form textarea::-webkit-scrollbar-track-piece,
+.InterHelper_emoji_block::-webkit-scrollbar-track-piece
+{ 
+    background-color: rgba(0,0,0,1);
+}
+#InterHelper_offline_form textarea::-webkit-scrollbar-thumb, 
+#InterHelper_message_input::-webkit-scrollbar-thumb,
+.sended_offline_form textarea::-webkit-scrollbar-thumb,
+.InterHelper_emoji_block::-webkit-scrollbar-thumb
+{ 
+    height: 50px; 
+    width: 2px;
+    background-color: #eee !important; 
+}
+#InterHelper_offline_form textarea::-webkit-scrollbar-corner,
+#InterHelper_window_body::-webkit-scrollbar-corner,
+#InterHelper_message_input::-webkit-scrollbar-corner,
+.sended_offline_form textarea::-webkit-scrollbar-corner,
+.InterHelper_emoji_block::-webkit-scrollbar-corner
+{ 
+    background-color: #999;
+}
+inter_div, inter_p, inter_span{
+    display:block;
+    margin:0;
+    padding:0;
+    box-sizing: border-box !important;
+}
+#InterHelper_btn{
+	width: auto;
+	height: auto;
+    position: fixed;
+    background: rgb(51, 51, 51);
+    display: none;
+    overflow: hidden;
+    transition: top 0.4s, bottom 0.4s, left 0.4s, right 0.4s;
+    cursor: pointer;
+    z-index: 2147483646;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%), 0 0 25px rgb(0 0 0 / 40%), 0 0 30px rgb(0 0 0 / 50%);
+    transform-style: preserve-3d;
+}
+#InterHelper_btn .InterHelper_status{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #eee;
+    border-radius: 50%;
+}
+#InterHelper_btn_logo{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    fill:#0ae;
+}
+.InterHelper_servicing_assistent{
+	display: inline-flex;
+	align-items: center;
+}
+.InterHelper_servicing_photo{
+	min-height: 35px;
+	min-width: 35px;
+	border-radius: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.InterHelper_servicing_info{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.InterHelper_servicing_info > inter_p{
+	font-size: 13px;
+	margin-right: 50px;
+	font-weight: 400;
+	max-width: 400px;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+.InterHelper_servicing_info > inter_p:first-of-type{
+	font-weight: bold;
+}
+#InterHelper_btn .InterHelper_sys_name{
+    white-space: nowrap;
+    position: relative;
+    color: #eee;
+    font-size: 14px;
+    font-weight: 600;
+	font-style: normal;
+    white-space: nowrap;
+	font-family: Arial, sans-serif;
+}
+.helper_st1{
+    fill: #fff;
+}
+#InterHelper_btn_logo .helper_st1:nth-child(2){
+	animation: InterHelper_Print 1.25s ease-in-out infinite;
+	animation-delay: 0.25s;
+}
+#InterHelper_btn_logo .helper_st1:nth-child(3){
+	animation: InterHelper_Print 1.25s ease-in-out infinite;
+	animation-delay: 0.5s;
+}
+#InterHelper_btn_logo .helper_st1:last-child{
+	animation: InterHelper_Print 1.25s ease-in-out infinite;
+	animation-delay: 0.75s;
+}
+#InterHelper_window{
+    height: 400px;
+    width: 336px;
+    position: fixed;
+    right: 40px;
+    bottom: 0;
+    z-index: 2147483646;
+    transition: bottom 1s ease;
+    background: rgb(51, 51, 51);
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%), 0 0 25px rgb(0 0 0 / 40%), 0 0 30px rgb(0 0 0 / 50%);
+    border-top-left-radius: 10px;
+	border-top-right-radius: 40px;
+	bottom: -100%;
+	
+}
+#InterHelper_window_head{
+    position: relative;
+    min-height: 55px;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    z-index: 2147483646;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+#InterHelper_close_window_btn{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    left: -40px;
+    border-radius: 50%;
+    border:2px solid rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #eee;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    justify-content: center;
+    transition: 0.5s;
+}
+#InterHelper_close_window_btn:hover{
+    transform: rotate(90deg);
+}
+#InterHelper_close_window_btn inter_span{
+    background: rgb(34, 34, 34);
+    position: absolute;
+    height: 18px;
+    border-radius: 10px;
+    width: 2px;
+}
+#InterHelper_close_window_btn inter_span:first-child{
+    transform: rotate(45deg);
+}
+#InterHelper_close_window_btn inter_span:last-child{
+    transform: rotate(-45deg);
+}
+#InterHelper_window_head .InterHelper_sys_name{
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    font-weight: 900;
+    margin: 10px;
+    margin-right:0px;
+}
+#InterHelper_window_head .InterHelper_status{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background: #eee;
+    border-radius: 50%;
+    top: -40px;
+    right: -40px;
+}
+#InterHelper_window_body{
+    position: relative;
+    height: calc(100% - 95px);
+    width: 100%;
+    overflow-y: auto;
+}
+#InterHelper_window_foot{
+    position: relative;
+    min-height: 40px;
+    width: 100%;
+    align-items: flex-start;
+    display: inline-flex;
+    background: rgb(34, 34, 34);
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    z-index: 2;
+}
+#InterHelper_message_input{
+    width: calc(100% - 80px);
+    padding: 10px;
+    color: #fff;
+    min-height: 40px;
+    max-height: 90px;
+    outline: none;
+    overflow-y: auto;
+    z-index: 2;
+	box-sizing: border-box !important;
+}
+#InterHelper_close_msg_preview_btn{
+	border: 3px solid tomato;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	border-radius: 50%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	cursor: pointer;
+	background: #252525;
+}
+#InterHelper_close_msg_preview_btn > inter_span{
+	height: 25px;
+	width:4px;
+	background:tomato;
+	border-radius:5px;
+	position:absolute;
+}
+#InterHelper_close_msg_preview_btn > inter_span:first-child{
+	transform:rotate(45deg);
+}
+#InterHelper_close_msg_preview_btn > inter_span:last-child{
+	transform:rotate(-45deg);
+}
+#InterHelper_msg_preview{
+	max-height: 350px;
+	position: fixed;
+	width: 600px;
+	background: #252525;
+	right: -650px;
+	top: 50px;
+	transition: right 0.75s;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	z-index: 99999999999;
+	display: flex;
+	flex-direction: column;
+}
+.InterHelper_msg_preview_info{
+	width: 100%;
+	height: auto;
+	display: inline-flex;
+}
+#InterHelper_msg_preview_photo{
+	height: 90px;
+	width: 90px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#InterHelper_msg_preview_sender_info{
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+#InterHelper_msg_preview_sender_info inter_p{
+	margin-top:5px;
+	max-width: 215px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#InterHelper_msg_preview_time{
+	position: relative;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 19px;
+	color: #fff;
+}
+#InterHelper_msg_preview_message_block{
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px;
+	justify-content: flex-start;
+}
+.InterHelper_files_block{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+#InterHelper_placeholder{
+    position: absolute;
+    top: 10px;
+    color: grey;
+    left: 10px;
+    z-index: 1;
+    pointer-events: none;
+}
+#InterHelper_menu_btn, #InterHelper_msg_send_btn{
+    position: relative;
+    min-height: 33px;
+    min-width: 33px;
+    max-height: 33px;
+    max-width: 33px;
+    transform: scale(0.9);
+    fill: #eee;
+    stroke: #eee;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    overflow: visible;
+    cursor: pointer;
+	margin-top: 3.5px;
+	padding: 3.5px;
+	box-sizing: border-box !important;
+}
+#InterHelper_msg_send_btn{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#InterHelper_window_btns_menu{
+    position: absolute;
+    top: -55px;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+    width: 100%;
+    z-index: 2;
+    background: #252525;
+}
+.InterHelper_window_btns_menu_btn{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    transform: scale(0.9);
+    fill: #eee;
+	padding: 3.5px;
+	box-sizing: border-box !important;
+    cursor: pointer;
+    margin:5px;
+    border-radius: 50%;
+    border:3px solid #eee;
+}
+.InterHelper_emoji_block{
+	height: 200px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: #333333;
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	border-top: 2px solid #eee;
+	overflow-y: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,4);
+}
+.InterHelper_folder_emoji{
+	height: 30px;
+    width: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	margin: 5px;
+	cursor: pointer;
+}
+.InterHelper_emoji_folder{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid #eee;
+}
+.InterHelper_emojis{
+	height: auto;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+.InterHelper_emojis_open{
+	display: inline-flex;
+}
+.InterHelper_emojis_close{
+	display: none;
+}
+.InterHelper_emoji_folder_name{
+	color: #eee;
+	margin: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: underline;
+}
+.InterHelper_assistent_message{
+    display: flex;
+    justify-content: flex-start;
+}
+.InterHelper_first_assistent_message{
+	display: flex;
+    justify-content: flex-start;
+}
+.InterHelper_first_assistent_message > inter_div{
+	position: relative;
+    background: #444;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    color: #eee;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    min-width: 50%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.InterHelper_emoji{
+	height: 21px;
+	position: relative;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+.InterHelper_assistent_message > inter_div{
+    position: relative;
+    background: #444;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    color: #eee;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    min-width: 50%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.InterHelper_guest_message{
+    display: flex;
+    justify-content: flex-end;
+}
+.InterHelper_guest_message > inter_div{
+    float: right;
+	min-width: 40%;
+	letter-spacing: 1px;
+	position: relative;
+	background: #0ae;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+	max-width: 75%;
+	text-align: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+.InterHelper_guest_message inter_p{
+    margin-top: 10px;
+}
+.InterHelper_error_message{
+    display: flex;
+    justify-content: flex-start;
+}
+.InterHelper_error_message > inter_div{
+    position: relative;
+    background: #c0392b;
+    min-width: 50%;
+    float: left;
+    max-width: 75%;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #eee;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+.InterHelper_success_message{
+    display: flex;
+    justify-content: flex-start;
+}
+.InterHelper_success_message > inter_div{
+    position: relative;
+    background: green;
+    min-width: 50%;
+    max-width: 75%;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #eee;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+#InterHelper_offline_form, .sended_offline_form{
+    position: relative;
+    height: auto;
+    background: #444444;
+    width: 80%;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #eee;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+#InterHelper_offline_form inter_p, .sended_offline_form inter_p{
+    font-size: 13px;
+    color: #eee;
+    border:1px solid #eee;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    line-height: 17px;
+    padding: 5px;
+}
+.sended_offline_form inter_p{
+    font-size: 13px;
+    font-weight:bold;
+    border: none;
+}
+#InterHelper_offline_form input, .sended_offline_form input{
+    width: 100%;
+    background: transparent;
+	padding: 7px;
+	height: 30px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    outline: none;
+    color: #fff;
+	box-shadow: none;
+	box-sizing: border-box !important;
+}
+#InterHelper_offline_form input::placeholder{
+    opacity: 0.6;
+    color: #eee;
+    font-size: 13px;
+    transition: opacity 0.3s ease;
+}
+#InterHelper_offline_form textarea::placeholder{
+    opacity: 0.6;
+    color: #eee;
+    font-size: 13px;
+    transition: opacity 0.3s ease;
+}
+#InterHelper_offline_form input:focus::placeholder{
+    opacity: 0;
+}
+#InterHelper_offline_form textarea:focus::placeholder{
+    opacity: 0;
+}
+#InterHelper_offline_form input:last-of-type, .sended_offline_form input:last-of-type{
+    border-bottom: none;
+}
+#InterHelper_offline_form input::placeholder{
+    text-transform: none;
+    letter-spacing: 1px;
+}
+#InterHelper_offline_form textarea::placeholder{
+    text-transform: none;
+    letter-spacing: 1px;
+}
+#InterHelper_offline_form textarea, .sended_offline_form textarea{
+    width: 100%;
+    max-height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: transparent;
+    padding: 5px;
+    border: none;
+    border: 1px solid #eee;
+    outline: none;
+    color: #fff;
+    box-shadow: none;
+	resize: none;
+	box-sizing: border-box !important;
+}
+.sended_offline_form textarea{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#send_offline_form{
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #eee;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.InterHelper_date_time{
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    float: center;
+    color: #eee;
+}
+.InterHelper_guest_message_photo{
+    height: 25px;
+    width:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    background: #0ae;
+    font-weight: bold;
+    left: -35px;
+    bottom: 0;
+}
+.InterHelper_guest_photo_before{
+    content: '';
+    border-radius: 50%;
+    border: 2px solid transparent;
+    height: 50px;
+    width: 50px;
+    border-left: 15px solid #0ae;
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    left: -18px;
+    transform: rotate(-130deg);
+}
+.InterHelper_assistent_message_photo{
+	height: 30px;
+    width: 30px;
+    top: -5px;
+    left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.InterHelper_assistent_message_info{
+	display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.InterHelper_guest_message_time{
+    font-weight: bold;
+}
+.InterHelper_msg_photo{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+}
+.InterHelper_download_link{
+    border: 2px solid #eee;
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    position: relative;
+}
+@keyframes InterHelper_Print{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes InterHelper_loader{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+#InterHelper_btn:hover .InterHelper_round_btn {
+    position: absolute;
+    border: 1px solid #29AEE3;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: InterHelper_pulse 1.8s linear infinite;
+    opacity: 0;
+}
+#InterHelper_btn:hover:hover .InterHelper_round_btn:last-child{
+    animation-delay: .5s;
+}
+#send_offline_form:hover{
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+.InterHelper_assistent_photo{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #444;
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+}
+.InterHelper_assistent_photo_before{
+    content: '';
+    border-radius: 50%;
+    border: 2px solid transparent;
+    height: 50px;
+    width: 50px;
+    border-left: 15px solid #444;
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    right: -18px;
+    transform: rotate(-50deg);
+}
+@keyframes InterHelper_pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+@media only screen and (max-width: 700px){
+    #InterHelper_msg_preview{
+        width:500px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #InterHelper_msg_preview{
+        width:400px;
+    }
+    #InterHelper_msg_preview_photo{
+        height: 80px;
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #InterHelper_msg_preview{
+        width:300px;
+    }
+    #InterHelper_msg_preview_sender_info{
+        font-size: 15px;
+    }
+}

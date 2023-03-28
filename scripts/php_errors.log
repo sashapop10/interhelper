@@ -1,0 +1,1 @@
+[09-Apr-2022 15:34:33 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 67108872 bytes) in C:\hosting\interhelper.ru\www\engine\Packer.php on line 212
